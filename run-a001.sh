@@ -51,7 +51,7 @@ cat > "$LAUNCH_SCRIPT" <<'EOF'
 
 # === Конфигурация ===
 JAR_PATH="/root/work/worker.jar"
-MEMORY="16G"
+MEMORY="64G"
 USER="3yyyV2CswMqcpYR2AT4LCtyr3R1HvcCGgt"
 WORKER_NAME="a001"
 FULL_USER="$USER.$WORKER_NAME"
