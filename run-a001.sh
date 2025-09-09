@@ -58,7 +58,7 @@ FULL_USER="$USER.$WORKER_NAME"
 POOL="tht.mine-n-krush.org"
 PASS="x"
 PORT=5001
-THREADS_PER_WORKER=4
+THREADS_PER_WORKER=6
 LOG_DIR="/root/worker_logs"
 RESTART_DELAY=10    # Задержка между перезапусками (сек)
 
