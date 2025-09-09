@@ -51,14 +51,14 @@ cat > "$LAUNCH_SCRIPT" <<'EOF'
 
 # === Конфигурация ===
 JAR_PATH="/root/work/worker.jar"
-MEMORY="64G"
+MEMORY="16G"
 USER="3yyyV2CswMqcpYR2AT4LCtyr3R1HvcCGgt"
 WORKER_NAME="a001"
 FULL_USER="$USER.$WORKER_NAME"
 POOL="tht.mine-n-krush.org"
 PASS="x"
 PORT=5001
-THREADS_PER_WORKER=6
+THREADS_PER_WORKER=4
 LOG_DIR="/root/worker_logs"
 RESTART_DELAY=10    # Задержка между перезапусками (сек)
 
